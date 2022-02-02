@@ -27,59 +27,59 @@ a customer can search for a doctor by city and or specialty or by pain.
   
 #### search by city
   
-![search by city](/Images/client/search%20by%20city.bmp)
+![search by city](/Images/client/recherche%20par%20ville.bmp)
   
 #### search by specialty
   
-![search by specialty](/Images/client/search%20by%20specialty.bmp)
+![search by specialty](/Images/client/recherche%20par%20spécialité.bmp)
   
 ###" search by pain
   
-![search by pain](/Images/client/recherche%20par%20pains.bmp)
+![search by pain](/Images/client/recherche%20par%20douleurs.bmp)
   
 #### see the location of the clinic in the profile of a pedcin
   
-![doctor profile](/Images/client/Profile%20doctor.bmp)
+![doctor profile](/Images/client/Profil%20medecin.bmp)
   
 ### case of a doctor:
 a doctor can register his organization (clinic), connect and modify his profile
   
 #### clinic registration request
   
-![clinical registration](/Images/doctor/registration%20clinic.bmp)
+![clinical registration](/Images/medecin/inscription%20clinique.bmp)
   
-#### to log in :
+#### log in :
   
-![doctor login](/Images/doctor/login%20doctor.bmp)
+![doctor login](/Images/medecin/login%20medecin.bmp)
   
 #### edit profile
   
 ![update medecin](/Images/medecin/modification%20profil%20medecin.bmp)
   
-![clinical update](/Images/doctor/modification%20Clinique.bmp)
+![clinical update](/Images/medecin/modification%20Clinique.bmp)
   
-![update address](/Images/doctor/modification%20Adress.bmp)
+![update address](/Images/medecin/modification%20Adress.bmp)
   
-![update website](/Images/doctor/modification%20WebSite.bmp)
+![update website](/Images/medecin/modification%20WebSite.bmp)
   
 ### case of an admin
 an admin can connect, add delete admins, delete a doctor, accept or refuse registration requests, modify his profile
   
-#### to log in :
+#### log in :
 
-![admin login](/Pictures/admin/login%20admin.bmp)
+![admin login](/Images/admin/login%20admin.bmp)
   
 #### add remove admin
   
-![list admin](/Images/admin/list%20create%20admin.bmp)
+![list admin](/Images/admin/liste%20create%20admin.bmp)
   
 #### list of doctors and deletion of a doctor
   
-![list doctors](/Images/admin/Liste%20doctors%20suppression.bmp)
+![list doctors](/Images/admin/Liste%20medecin%20suppression.bmp)
   
 #### list of requests, accept or reject
   
-![list requests](/Images/admin/list%20request%20accept%20reject.bmp)
+![list requests](/Images/admin/liste%20demande%20accepter%20rejeter.bmp)
   
 #### edit profile
   
