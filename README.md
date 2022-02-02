@@ -83,4 +83,4 @@ an admin can connect, add delete admins, delete a doctor, accept or refuse regis
   
 #### edit profile
   
-![modify admin profile](/Images/admin/modification%20profil%20admin.bmp)
+![modify admin profile](/Images/admin/modification%20profil%20admin.bmp) 
