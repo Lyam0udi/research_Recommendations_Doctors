@@ -1,0 +1,121 @@
+#search-form {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.search-part {
+    flex: 1;
+}
+
+#select-form {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sentecnce-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.medcin {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 2%/15%;
+    background-color: rgb(216, 221, 221);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sentence-srch-input{
+    width: 250px;
+    height: 20px;
+    margin : 5px;
+    font-size: 1em;
+}
+
+.medcin-footer {
+    display: flex;
+    margin: 0px 5px;
+}
+
+.medcin-footer-elm {
+    flex: 1;
+    display: flex;
+}
+
+.medcin-footer-elm p {
+    margin: 5px;
+}
+
+.medcin-infos{
+    color: rgb(86, 86, 128);
+}
+.medcin-footer-elm p a {
+    text-decoration: none;
+    color: rgb(57, 57, 138);
+}
+
+.medcin-header{
+    display: flex;
+    justify-content: space-between;
+}
+.medcin-header h2  {
+    color: rgb(23, 23, 99);
+    margin: 5px 10px;
+}
+
+.medcin-header h3  {
+    color: rgb(18, 18, 68);
+    margin: 5px 10px;
+}
+
+.medcin-center h3 {
+    color:rgb(39, 136, 14);
+}
+
+.medcin-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.medcin-dlt-btn-container{
+    display: flex;
+    padding: 20px 0px 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.medcin-dlt-btn{
+    background-color: rgb(189, 21, 21);
+    color: rgb(245, 239, 239);
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+}
+
+.clickable-medcin:hover{
+    cursor: pointer;
+}
+
+#search-error{
+    display: flex;
+    justify-content: center;
+    color: rgb(72, 77, 77);
+    font-weight: bold;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    height: 200px;
+    margin: 20px 0px;
+    border-radius: 2%/10%;
+    background-color: rgb(216, 221, 221);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

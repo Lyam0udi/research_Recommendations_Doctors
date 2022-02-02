@@ -1,0 +1,123 @@
+GET http://localhost:8080/search/ville/Tanger
+
+###
+GET http://localhost:8080/search/speciality/Ophtalmologue
+
+###
+GET http://localhost:8080/search/ville/Tanger/speciality/Ophtalmologue
+
+
+###
+POST http://localhost:8080/search/douleurs
+content-type: application/json
+
+{
+    "douleurs" : "boutton de la peau et risque du coeur manque de vision"
+}
+
+
+
+/update/name={name}/email={email}/password={password}
+
+### delete admin
+POST http://localhost:8080/admin/login
+content-type: application/json
+
+{
+    "email" : "admin@gmail.com",
+    "password" : "admin"
+}
+### admin
+POST http://localhost:8080/admin/all
+content-type: application/json
+
+{
+    "email" : "admin@gmail.com",
+    "password" : "admin"
+}
+
+
+### admin
+POST http://localhost:8080/listmedcins/all
+content-type: application/json
+
+{
+    "email" : "admin@gmail.com",
+    "password" : "admin"
+}
+
+### admin
+POST http://localhost:8080/admin/delete/1
+content-type: application/json
+
+{
+    "email" : "admin@gmail.com",
+    "password" : "admin"
+}
+
+
+### formulaire de demande 
+POST http://localhost:8080/form/add
+content-type: application/json
+
+{
+    "name" : "Amar Filal",
+    "email" : "amar@gmail.com",
+    "speciality" : "Ophtalmologue",
+    "publicEmail" : "amarcliniquee@contact.com",
+    "ville" : "Tanger",
+    "cliniqueName" : "Clinique Amar",
+    "number": "0624827632",
+    "oppenAt" : "8h",
+    "closeAt" : "16h",
+    "adress" : "Iberia",
+    "webSiteName" : "cliniqueamar.com",
+    "webSiteUrl" : "http://cliniqueamar.com"
+}
+
+### liste demandes
+POST http://localhost:8080/demandes/form/all
+content-type: application/json
+
+{
+    "email" : "admin@gmail.com",
+    "password" : "admin"
+}
+
+
+### profile medcin
+POST http://localhost:8080/profile/login
+content-type: application/json
+
+{
+    "email" : "ilias@gmail.com",
+    "password" : "ilias"
+}
+
+### update profile medcin
+POST http://localhost:8080/profile/update/profile/email=ilias@gmail.com/password=ilias
+content-type: application/json
+
+{
+    "email" : "ilias@gmail.com",
+    "password" : "ilias"
+}
+
+
+### update profile medcin
+POST http://localhost:8080/profile/update/name=iliaslya/speciality=Cardiologue
+content-type: application/json
+
+{
+    "email" : "ilias@gmail.com",
+    "password" : "ilias"
+}
+
+### profile medcin
+POST http://localhost:8080/profile/medcin
+content-type: application/json
+
+{
+    "email" : "ilias@gmail.com",
+    "password" : "ilias"
+}

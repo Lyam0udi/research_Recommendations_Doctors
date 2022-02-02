@@ -1,0 +1,53 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    position: relative;
+}
+
+.login-container {
+    padding: 20px;
+    border-radius: 6%/4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.3);
+}
+
+.login-title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.login-inputs{
+    border: black solid 1px;
+    width: 96%;
+}
+
+.btn {
+    transform: scale(1.2);
+    margin : 0px 15px;
+}
+
+.login-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-check-boxes-container{
+    margin: 10px 0px;
+}
+
+.cancel-btn{
+    background-color: rgb(194, 15, 15);
+    color: rgb(253, 249, 249);
+}
+
+.login-error {
+    color: red;
+    font-size: 12px;
+}
+
+.login-error-container {
+    width: 180px;
+}
