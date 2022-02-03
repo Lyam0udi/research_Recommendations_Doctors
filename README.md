@@ -1,5 +1,5 @@
 # research_Recommendations_Doctors
-Service-oriented platform, based on “JEE, Spring Boot, Micro-services, React JS” technologies.
+Service-oriented platform, based on “JEE, Spring Boot, React JS” technologies.
 
 # Doctor search and recommendation systems
 a platform that allows you to search for a doctor by city or a specific specialty
