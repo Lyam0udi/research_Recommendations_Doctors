@@ -33,7 +33,7 @@ a customer can search for a doctor by city and or specialty or by pain.
   
 ![search by specialty](/Images/client/recherche%20par%20spécialité.bmp)
   
-###" search by pain
+### search by pain
   
 ![search by pain](/Images/client/recherche%20par%20douleurs.bmp)
   
